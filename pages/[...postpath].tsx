@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://wbari129.systeme.io/510b24fe/` + encodeURI(path as string)
+					`https://wbari129.systeme.io/510b24fe/`
 				}`,
 			},
 		};
@@ -31,7 +31,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://wbari129.systeme.io/510b24fe/` + encodeURI(path as string)
+					`https://wbari129.systeme.io/510b24fe/`
 				}`,
 			},
 		};
